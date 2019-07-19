@@ -1,0 +1,32 @@
+[
+  {
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "name": "charmander",
+    "types": [
+      "fire"
+    ],
+    "moves": ["ultimapoing", "claw"],
+    "stats": [{
+      "base": 66,
+      "name": "hp"
+    }, {
+      "base": 90,
+      "name": "attack"
+    }]
+  },
+  {
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "name": "bulbasaur",
+    "types": [
+      "grass"
+    ],
+    "moves": ["tackle", "sleep-powder"],
+    "stats": [{
+      "base": 100,
+      "name": "hp"
+    }, {
+      "base": 75,
+      "name": "attack"
+    }]
+  }
+]

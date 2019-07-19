@@ -1,0 +1,31 @@
+{
+  "name": "graphql-pokemon-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp src/schema.graphql dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineat/graphql-pokemon-training.git"
+  },
+  "keywords": [],
+  "author": "Clément Pasek <clement.pasek@ineat-conseil.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ineat/graphql-pokemon-training/issues"
+  },
+  "homepage": "https://github.com/ineat/graphql-pokemon-training#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.5.0",
+    "apollo-server": "^2.7.0-alpha.3",
+    "apollo-server-core": "^2.7.0-alpha.3",
+    "graphql": "^14.4.1",
+    "graphql-import": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.2"
+  }
+}
