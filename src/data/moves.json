@@ -1,0 +1,38 @@
+[
+  {
+    "id": 5,
+    "name": "ultimapoing",
+    "description": "L’ennemi reçoit un coup de poing d’une puissance\nincroyable.",
+    "damageClass": "physical",
+    "pp": 20,
+    "power": 80,
+    "accuracy": 85
+  },
+  {
+    "id": 10,
+    "name": "claw",
+    "description": "Lacère l’ennemi avec des griffes acérées pour lui\ninfliger des dégâts.",
+    "damageClass": "physical",
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 33,
+    "name": "tackle",
+    "description": "Le lanceur charge l’ennemi et le percute de tout\nson poids.",
+    "damageClass": "physical",
+    "pp": 35,
+    "power": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 79,
+    "name": "sleep-powder",
+    "description": "Le lanceur répand une poudre soporifique qui\nendort la cible.",
+    "damageClass": "status",
+    "pp": 15,
+    "power": 0,
+    "accuracy": 75
+  }
+]

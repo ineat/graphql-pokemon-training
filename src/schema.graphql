@@ -1,0 +1,26 @@
+type Pokemon {
+  img: String!
+  name: String!
+  types: [String]!
+  moves: [Move]!
+  stats: [Stat]!
+}
+
+type Move {
+  id: ID!
+  name: String!
+  description: String
+  accuracy: Int
+  damageClass: String
+  power: Int
+  pp: Int
+}
+
+type Stat {
+  name: String!
+  base: Int!
+}
+
+type Query {
+  getPokemonByName(name: String!): Pokemon
+}
